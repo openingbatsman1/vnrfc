@@ -213,3 +213,64 @@ footer {
   color: #000;
   transform: scale(1.05);
 }
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .formation-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .field {
+    width: 100%;
+    min-height: 500px;
+    padding: 20px 10px;
+  }
+
+  .line {
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0;
+  }
+
+  .player {
+    padding: 8px 12px;
+    font-size: 15px;
+  }
+
+  .preview-box {
+    width: 90%;
+    margin-top: 30px;
+    order: 2;
+  }
+
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery img {
+    width: 90%;
+    height: auto;
+  }
+
+  .achievements-list li {
+    font-size: 16px;
+    padding: 12px 15px;
+  }
+}
